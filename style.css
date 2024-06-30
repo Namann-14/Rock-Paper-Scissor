@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather";
+}
+body {
+  background-color: #9ad1d4 !important;
+}
+.choice {
+  padding: 0px 15px;
+}
+
+.choice img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.25s ease-in-out;
+}
+
+.choice img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.choice img click {
+  border: 2px solid black;
+}
+
+#header {
+  background-color: #274060;
+  color: white;
+}
